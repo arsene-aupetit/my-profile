@@ -1,0 +1,177 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  color: rgb(1, 27, 57);
+  background-color: rgb(247, 246, 251);
+  font-family: Purista;
+  text-align: center;
+  margin: 20px;
+  border-radius: 5px;
+  padding:  10px;
+  stroke: 0,1;
+}
+
+h2{
+  color: rgb(1, 27, 57);
+  font-size: 24px;
+  font-family: Purista;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  padding:  10px;
+}
+
+p {
+  font-weight: normal;
+  color: rgb(1, 27, 57);
+  font-size: 19px;
+  font-family: Purista;
+  text-align: justify;
+  margin: 10px;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+a {
+    font-family: Purista;
+    font-size: 20px;
+    color: rgb(216, 6, 36);
+    text-decoration:none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-align: center;
+  font-weight: 800;
+}
+
+form {
+    padding: 15px 32px;
+    background-color: rgb(247, 246, 251);;
+    font-family: Purista;
+    margin: 25px;
+    display: block;
+    border-radius: 10px;
+}
+input[type=email] {
+  font-family: Purista;
+  font-size: 16px;
+  Width:  60%;
+  background-color: rgb(250, 250, 250);
+  stroke:  0,2px;
+  padding: 14px 20px;
+  margin: 25px;
+  border: none;
+  border-radius: 4px;
+}
+input[type=submit] {
+  font-family: Purista;
+  width: 25%;
+  background-color: rgb(216, 6, 36);
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 14px 20px;
+  margin: 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #bf021d;
+}
+
+div {
+}
+/* Classes */
+.img-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  border-radius: 50%;
+}
+.img-bordered {
+  border : 1px solid rgb(216, 6, 36);
+}
+.red {
+  color: rgb(216, 6, 36);
+}
+.centered {
+  display: block;
+  text-align: center;
+}
+.card-left {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 25px;
+  box-shadow: 0px 5px 20px rgb(210, 210, 210);
+  display: block;
+  width: 70%;
+  display: inline-block;
+}
+.card-right {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 25px;
+  box-shadow: 0px 5px 20px rgb(210, 210, 210);
+  display: inline-block;
+  width : 100%;
+}
+.container {
+  width:  100%;
+  box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+}
+#main-container {
+  max-width: 1000px;
+  margin: auto;
+ 
+}
+
+@media (max-width: 720px) {
+  #main-container{
+    max-width: 600;
+  }
+}
+
+.card-bottom {
+  width: 100%;
+  height: 30%;
+}
+.container-column {
+  margin: 0;
+  box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+  column-count: 2;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+}
+.list-inline li {
+  display: inline;
+  text-align: center;
+  padding:  10px;
+}
+.list-inline i {
+  font-size: 40px;
+  color: #797979;
+}
+.list-inline i:hover {
+  color: rgb(216, 6, 36);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
